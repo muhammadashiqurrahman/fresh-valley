@@ -1,0 +1,130 @@
+/* common css */
+a{
+    text-decoration: none!important;
+}
+.border-radius-15{
+    border-radius: 15px;
+}
+/* common css ends */
+/**/
+.admin_navbar,.admin_details{
+    height: 100vh;
+}
+.admin_navbar{
+    background: #203D37;
+}
+.admin_details{
+    background: #F4FCFB;
+}
+.product_list , .product_list_header , .product_list_info{
+    width: 100%;
+}
+.product_list .product_list_header th , .product_list .product_list_info td{
+    width: 25%;
+}
+.product_list_info_area{
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-color: #cdcdcd;
+    scrollbar-width: thin;
+}
+.product_list_info_area::-webkit-scrollbar {
+    width: 8px;
+}
+.product_list_info_area::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 8px #dddddd;
+}
+.product_list_info_area::-webkit-scrollbar-thumb {
+    background-color: #cdcdcd;
+}
+.admin_t_header{
+    background: white;
+}
+.admin_navbar h1{
+    font-size: 22px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 60px;
+}
+.admin_navbar ul li{
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 15px;
+    padding: 0 50px;
+}
+.admin_navbar ul li svg{
+    margin-right: 10px;
+}
+.admin_navbar ul li.active , .admin_navbar ul li:hover{
+    background: #2D524A;
+}
+.admin_t_header h2{
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #000000;
+    line-height: 60px;
+}
+.admin_t_list{
+    height: 535px;
+    overflow-y: scroll;
+}
+.product_list_header th{
+    background: #F5F6FA;
+    line-height: 54px;
+    font-size: 16px;
+    padding-left: 24px;
+}
+.product_list_header th:first-child{
+    border-radius: 15px 0 0 15px;
+}
+.product_list_header th:last-child{
+    border-radius: 0 15px 15px 0;
+}
+.product_list_info td{
+    line-height: 54px;
+    padding-left: 24px;
+}
+.product_list_info td button{
+    background: #3BC83B;
+    border:0;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.product_list_info td button.delete{
+    background: #FF444A;
+}
+.product_list_info td button:hover{
+    background: #999999;
+}
+
+/* add product css starts */
+
+form div label{
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 14px;
+    display: block;
+}
+form div label.upload_button{
+    background: #DCFFEC;
+    line-height: 35px;
+    border-radius: 5px;
+    border: 1px solid #71BA58;
+    color: #71BA58;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 20px;
+}
+form div label.upload_button svg{
+    margin-right: 10px;
+}
+form div [type=file]{
+    display: none;
+}
+form button{
+    background: #71BA58!important;
+    color: #ffffff!important;
+}

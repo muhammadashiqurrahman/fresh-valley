@@ -1,0 +1,49 @@
+.navbar{
+    padding-top: 30px!important;
+    background: url("navbar-bg-dot.svg") no-repeat;
+    background-position: 40% 0%;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: #363958;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+    color: #363958;
+}
+
+.navbar-nav{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 500;
+    padding: 15px 30px;
+    
+}
+
+.nav-items:hover{
+    background-color: #71BA58;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+}
+
+
